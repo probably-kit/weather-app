@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "rules": {
+        // Add or override ESLint rules here
+        // Example:
+        // "no-unused-vars": "warn",
+        // "no-console": "off"
+    }
+}
